@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.4.xsd
+       ">
+
+<!-- 	<bean id="cmsMetaclassDao" class="com.ebay.tools.cms.dao.impl.CMSMetaclassDaoImpl"> -->
+<!-- 		<property name="sessionFactory"> -->
+<!-- 			<ref bean="sessionFactory" /> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="executionHistoryDao" class="com.ebay.tools.cms.dao.impl.ExecutionHistoryDaoImpl"> -->
+<!-- 		<property name="sessionFactory"> -->
+<!-- 			<ref bean="sessionFactory" /> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="mappingAttributeDao" class="com.ebay.tools.cms.dao.impl.MappingAttributeDaoImpl"> -->
+<!-- 		<property name="sessionFactory"> -->
+<!-- 			<ref bean="sessionFactory" /> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="mappingRuleDao" class="com.ebay.tools.cms.dao.impl.MappingRuleDaoImpl"> -->
+<!-- 		<property name="sessionFactory"> -->
+<!-- 			<ref bean="sessionFactory" /> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="odbMetaclassDao" class="com.ebay.tools.cms.dao.impl.ODBMetaclassDaoImpl"> -->
+<!-- 		<property name="sessionFactory"> -->
+<!-- 			<ref bean="sessionFactory" /> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="validationJobDao" class="com.ebay.tools.cms.dao.impl.ValidationJobDaoImpl"> -->
+<!-- 		<property name="sessionFactory"> -->
+<!-- 			<ref bean="sessionFactory" /> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+
+</beans>
