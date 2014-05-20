@@ -30,24 +30,6 @@
 		<filter-name>Set Character Encoding</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
-
-	<filter>
-		<filter-name>openSessionInViewFilter</filter-name>
-		<filter-class>org.springframework.orm.hibernate4.support.OpenSessionInViewFilter</filter-class>
-		<init-param>
-			<param-name>singleSession</param-name>
-			<param-value>true</param-value>
-		</init-param>
-		<init-param>
-			<param-name>sessionFactoryBeanName</param-name>
-			<param-value>sessionFactory</param-value>
-		</init-param>
-	</filter>
-
-	<filter-mapping>
-		<filter-name>openSessionInViewFilter</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
 	<!-- Servlet Encoding End -->
 
 
@@ -56,26 +38,6 @@
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
-
-
-	<!-- Spring Configuration End -->
-
-	<!--No mapping found for HTTP request with URI <servlet-mapping> <servlet-name>jsp</servlet-name> 
-		<url-pattern>*.jsp</url-pattern> </servlet-mapping -->
-
-
-
-	<!-- The browser doesn't the methods of (put, delete .etc), the filter will 
-		convert /blog?_method=delete to the standard "http delete methods" -->
-	<filter>
-		<filter-name>HiddenHttpMethodFilter</filter-name>
-		<filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
-	</filter>
-
-	<filter-mapping>
-		<filter-name>HiddenHttpMethodFilter</filter-name>
-		<servlet-name>mm-parents</servlet-name>
-	</filter-mapping>
 
 	<servlet>
 		<servlet-name>mm-parents</servlet-name>
@@ -89,7 +51,7 @@
 	</servlet-mapping>
 	
 	<welcome-file-list>
-		<welcome-file>welcome.jsp</welcome-file>
+		<welcome-file>/WEB-INF/jsp/login.jsp</welcome-file>
 	</welcome-file-list>
 
 </web-app>

@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-                 welcom
-                 
-          <a href="/persons/find">OK</a>
-  
+  hello
 </body>
 </html>
